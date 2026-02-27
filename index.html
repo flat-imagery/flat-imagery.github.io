@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flat Imagery</title>
+    <style>
+        @font-face {
+            font-family: 'Affairs';
+            src: url('content/AffairsTest-Regular.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Affairs';
+            src: url('content/AffairsTest-Italic.woff2') format('woff2');
+            font-weight: normal;
+            font-style: italic;
+        }
+        @font-face {
+            font-family: 'Athelas';
+            src: url('content/Athelas.woff2') format('woff2');
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Athelas', 'Georgia', serif;
+            background: #fff;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title {
+            font-size: 1.8rem;
+            margin-bottom: 0.6rem;
+            font-weight: normal;
+        }
+
+        .title span {
+            font-family: 'Affairs', 'Georgia', serif;
+            font-style: italic;
+        }
+
+        .services {
+            font-family: 'Athelas', 'Georgia', serif;
+            font-size: 1.6rem;
+            line-height: 1.4;
+            margin-bottom: 1.8rem;
+            font-weight: normal;
+        }
+
+        .details {
+            font-family: 'Affairs', 'Georgia', serif;
+            font-size: 0.85rem;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        .details a {
+            color: #444;
+            text-decoration: none;
+        }
+
+        .details a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            padding-bottom: 2rem;
+            font-family: 'Affairs', 'Georgia', serif;
+            font-size: 0.7rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="title">&copy; <span>Flat Imagery Association</span></p>
+        <div class="services">
+            Offers creative direction<br>
+            + Image making services
+        </div>
+        <div class="details">
+            Based in Paris,<br>
+            CGI, VFX, AI, Photography<br>
+            <a href="mailto:contact@flat-imagery.com">contact@flat-imagery.com</a> / @flat-imagery
+        </div>
+    </div>
+    <p class="footer">website under construction, release soon.</p>
+</body>
+</html>

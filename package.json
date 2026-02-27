@@ -1,0 +1,16 @@
+{
+  "name": "flat-imagery.github.io",
+  "version": "1.0.0",
+  "description": "our temporary website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ttf2woff2": "^8.0.0"
+  }
+}
